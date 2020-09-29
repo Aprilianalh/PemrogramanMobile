@@ -1,0 +1,87 @@
+SOURCE CODE
+
+-----------------------------------------------------------------------------------------------------------------------------
+PROGRAM 1
+-----------------------------------------------------------------------------------------------------------------------------
+
+fun main() {
+for (n in 0..10) {
+    print(n)
+}
+  }
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+PROGRAM 2
+-----------------------------------------------------------------------------------------------------------------------------
+
+fun main(){
+    val data = setOf(1,8,0,8,2,0,1,0,0,2,2)
+    
+    for(printData in data){
+        println(printData)
+        
+    }
+}
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+PROGRAM 3
+-----------------------------------------------------------------------------------------------------------------------------
+
+fun main() {
+val numbers = listOf(-1, 20, -2, 21, -3, 22, -4, 23)
+
+val totalCount = numbers.count()
+val evenCount = numbers.count { it % 2 == 0 }
+
+print("Total nomer : ")
+     println(totalCount)
+print("Total nomer genap : ")
+     println(evenCount)
+}
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+PROGRAM 4
+-----------------------------------------------------------------------------------------------------------------------------
+
+fun siomayrebus() = println("Merebus siomay")
+fun siomaygoreng() = println("Menggoreng siomay")
+
+fun main() {
+    var SiomayDirebus = 3
+    var SiomayDigoreng = 2
+
+    while (SiomayDirebus < 5) {
+           siomayrebus()
+           SiomayDirebus++
+    }
+
+    do {
+        siomaygoreng()
+        SiomayDigoreng++
+    }
+
+    while (SiomayDigoreng < SiomayDirebus)
+}
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+PROGRAM 5
+-----------------------------------------------------------------------------------------------------------------------------
+
+class Customer(var id: String, var name: String)
+class Contact(var telp: var email: String)
+
+fun main() {
+val customer = Customer("1. ", "Apriliana Latifah Hanum")
+val contact = Contact("08980639045", "aprilianalh@gmail.com")
+
+print(customer.id)
+println(customer.name)
+println(contact.telp)
+println(contact.email)
+}
+
+
