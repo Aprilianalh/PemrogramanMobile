@@ -1,0 +1,12 @@
+class Customer(var id: String, var name: String)
+class Contact(var telp: var email: String)
+
+fun main() {
+val customer = Customer("1. ", "Apriliana Latifah Hanum")
+val contact = Contact("08980639045", "aprilianalh@gmail.com")
+
+print(customer.id)
+println(customer.name)
+println(contact.telp)
+println(contact.email)
+}
