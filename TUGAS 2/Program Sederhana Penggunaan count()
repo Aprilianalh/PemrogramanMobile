@@ -1,0 +1,11 @@
+fun main() {
+val numbers = listOf(-1, 20, -2, 21, -3, 22, -4, 23)
+
+val totalCount = numbers.count()
+val evenCount = numbers.count { it % 2 == 0 }
+
+print("Total nomer : ")
+     println(totalCount)
+print("Total nomer genap : ")
+     println(evenCount)
+}
