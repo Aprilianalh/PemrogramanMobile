@@ -1,0 +1,19 @@
+fun siomayrebus() = println("Merebus siomay")
+fun siomaygoreng() = println("Menggoreng siomay")
+
+fun main() {
+    var SiomayDirebus = 3
+    var SiomayDigoreng = 2
+
+    while (SiomayDirebus < 5) {
+           siomayrebus()
+           SiomayDirebus++
+    }
+
+    do {
+        siomaygoreng()
+        SiomayDigoreng++
+    }
+
+    while (SiomayDigoreng < SiomayDirebus)
+}
