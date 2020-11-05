@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UTS 1</string>
+    <string name="nama_fakultas">nama fakultas</string>
+    <string name="todo">TODO</string>
+    <string name="deskripsi_fakultas">deskripsi fakultas</string>
+    <string name="nama_jurusan">nama jurusan</string>
+    <string name="profil_fakultas_upn">PROFIL FAKULTAS UPN</string>
+</resources>
