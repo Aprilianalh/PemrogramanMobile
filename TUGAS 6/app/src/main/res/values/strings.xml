@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Jajanan Hits Di Surabaya</string>
+    <string name="daftar_jajanan">DAFTAR JAJANAN</string>
+    <string name="nama_jajan">nama jajan</string>
+    <string name="todo">TODO</string>
+    <string name="nama_jajanan">nama jajanan</string>
+    <string name="deskripsi_jajan">deskripsi jajan</string>
+    <string name="menu">menu</string>
+    <string name="outlet">outlet</string>
+    <string name="halal">Halal ✓</string>
+</resources>
