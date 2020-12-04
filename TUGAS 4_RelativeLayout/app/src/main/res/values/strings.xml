@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TUGAS</string>
+    <string name="todo">TODO</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="remember_me">Remember Me?</string>
+</resources>

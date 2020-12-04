@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#0A1555"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="294dp"
+        android:layout_height="182dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="40dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/pict1" />
+
+    <FrameLayout
+        android:layout_width="381dp"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="562dp"
+            android:background="#005BAA"
+            android:text="@string/sign_in"
+            android:textColor="#FFFFFF" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="310dp"
+                    android:autofillHints=""
+                    android:ems="12"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#50C2FF"
+                    android:hint="@string/username"
+                    android:inputType="textPersonName" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="363dp"
+                android:layout_height="325dp">
+
+                <EditText
+                    android:id="@+id/editTextTextPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:autofillHints=""
+                    android:ems="12"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#50C2FF"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="95dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="45dp"
+                    android:text="@string/remember_me"
+                    android:textColor="#50C2FF"
+                    android:buttonTint="#50C2FF"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>
