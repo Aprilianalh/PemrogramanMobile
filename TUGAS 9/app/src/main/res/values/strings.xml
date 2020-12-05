@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tugas 9</string>
+    <string name="hint_word">Masukkan Kata</string>
+    <string name="button_save">Simpan</string>
+    <string name="empty_not_saved">Kata tidak dapat disimpan karena kosong.</string>
+    <string name="daftar_kata_tersimpan">Daftar Kata Tersimpan</string>
+    <string name="Hapus">Seluruh Data Telah Dihapus</string>
+    <string name="hapus_semua_kata">Hapus Semua Kata</string>
+</resources>
