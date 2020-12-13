@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CatetanKU</string>
+    <string name="simpan">Simpan</string>
+    <string name="prioritas">Prioritas :</string>
+    <string name="_1">1</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="judul">Judul</string>
+    <string name="hapus_semua_catatan">Hapus Semua Catatan</string>
+</resources>
