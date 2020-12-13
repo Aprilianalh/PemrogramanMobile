@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">STOK OBAT</string>
+    <string name="_1">1</string>
+    <string name="judul">NAMA OBAT</string>
+    <string name="kategori">KATEGORI</string>
+    <string name="indikasi">INDIKASI UMUM</string>
+    <string name="stok">STOK</string>
+    <string name="hapus_semua_catatan">Hapus Semua Data</string>
+    <string name="simpan">Simpan</string>
+</resources>
